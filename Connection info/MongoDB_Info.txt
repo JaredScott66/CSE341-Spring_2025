@@ -1,2 +1,0 @@
-cluster 0 Mongo database atlas URI:
-mongodb+srv://bobswag21:<db_password>@cluster0.ybi52.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
