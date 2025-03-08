@@ -1,6 +1,5 @@
 # GET http://localhost:3000/users
 
-GET https://cse-340-classproject.onrender.com/users # Requests all users in data base
-
-GET https://cse-340-classproject.onrender.com/users/67ccb4478b6b88d6fefb5f74 # Requests 1st user in database
+GET https://cse-340-classproject.onrender.com/users 
+//GET https://cse-340-classproject.onrender.com/users/67ccb4478b6b88d6fefb5f74 # Requests 1st user in database
 
