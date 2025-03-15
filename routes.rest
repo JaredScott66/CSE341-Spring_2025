@@ -1,5 +1,34 @@
-# GET http://localhost:3000/users
+//LOCALHOST 
 
-GET https://cse-340-classproject.onrender.com/users 
-//GET https://cse-340-classproject.onrender.com/users/67ccb4478b6b88d6fefb5f74 # Requests 1st user in database
+### Get all users 
+GET http://localhost:3000/users
 
+### Requests 1st user in database via Render 
+GET https://cse-340-classproject.onrender.com/users/67ccb4478b6b88d6fefb5f74 
+
+### Create contact
+POST http://localhost:3000/users HTTP/1.1
+content-Type: application/json
+
+{
+    "firstName": "Ashely",
+    "lastName": "Weaver",
+    "email": "aWeaver@test.com",
+    "favoriteColor": "Brown",
+    "birthday": "06-19-2000"
+}
+
+### Edit contact
+PUT http://localhost:3000/users/67d5eff1982c28d71cd1b48e HTTP/1.1
+content-Type: application/json
+
+{
+    "firstName": "Sarah",
+    "lastName": "Birch",
+    "email": "test@gmail.com",
+    "favoriteColor": "Green",
+    "birthday": "12-12-2003"
+}
+
+### Delete contact
+DELETE http://localhost:3000/users/67d5f097982c28d71cd1b48f HTTP/1.1
