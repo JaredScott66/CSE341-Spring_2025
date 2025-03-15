@@ -8,7 +8,7 @@
   "host": "cse-340-classproject.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
